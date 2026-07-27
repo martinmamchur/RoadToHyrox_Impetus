@@ -510,9 +510,39 @@ const { useState, useEffect, useMemo, useCallback, useRef } = React;
 const PROGRAMA = JSON.parse(document.getElementById('program-data').textContent);
 const programa = PROGRAMA;
 const STORAGE_KEY = "hyrox17_tracking_v1";
+const GH_USER = "martinmamchur";
+const GH_REPO = "PlanOnline-Hyrox";
+const GH_PROGRESS_FILE = "progreso.json";
 
 function loadTracking(){ try{ const r=localStorage.getItem(STORAGE_KEY); return r?JSON.parse(r):{}; }catch(e){ return {}; } }
 function saveTracking(data){ try{ localStorage.setItem(STORAGE_KEY,JSON.stringify(data)); }catch(e){} }
+
+function getToken(){ return localStorage.getItem("gh_token_hyrox")||""; }
+function setToken(t){ localStorage.setItem("gh_token_hyrox",t); }
+
+async function ghLoadProgress(){
+  try{
+    const url=`https://raw.githubusercontent.com/${GH_USER}/${GH_REPO}/main/${GH_PROGRESS_FILE}?t=${Date.now()}`;
+    const res=await fetch(url);
+    if(!res.ok) return null;
+    return await res.json();
+  }catch(e){ return null; }
+}
+
+async function ghSaveProgress(data){
+  const token=getToken();
+  if(!token) return false;
+  try{
+    const apiUrl=`https://api.github.com/repos/${GH_USER}/${GH_REPO}/contents/${GH_PROGRESS_FILE}`;
+    const headers={"Authorization":`token ${token}`,"Accept":"application/vnd.github.v3+json","Content-Type":"application/json"};
+    let sha=null;
+    try{ const r=await fetch(apiUrl,{headers}); if(r.ok){const d=await r.json(); sha=d.sha;} }catch(e){}
+    const content=btoa(unescape(encodeURIComponent(JSON.stringify(data,null,2))));
+    const body={message:`Progreso Hyrox — ${new Date().toLocaleString()}`,content,...(sha?{sha}:{})};
+    const r=await fetch(apiUrl,{method:"PUT",headers,body:JSON.stringify(body)});
+    return r.ok;
+  }catch(e){ return false; }
+}
 function downloadJSON(filename,obj){
   const blob=new Blob([JSON.stringify(obj,null,2)],{type:"application/json"});
   const url=URL.createObjectURL(blob); const a=document.createElement("a");
@@ -978,6 +1008,39 @@ function App(){
   const activeTracking=importedData?importedData.tracking:tracking;
   const isReadOnly=!!importedData;
 
+  // ── GitHub sync ──────────────────────────────────────────────────────────────
+  const [ghToken, setGhToken] = React.useState(getToken);
+  const [syncStatus, setSyncStatus] = React.useState("");
+  const [showTokenInput, setShowTokenInput] = React.useState(!getToken());
+
+  React.useEffect(()=>{
+    // Al arrancar, intentar cargar progreso desde GitHub
+    ghLoadProgress().then(data=>{
+      if(data && data.tracking && typeof data.tracking==="object"){
+        setTracking(data.tracking);
+        saveTracking(data.tracking);
+        setSyncStatus("✓ Progreso cargado desde GitHub");
+        setTimeout(()=>setSyncStatus(""),3000);
+      }
+    });
+  },[]);
+
+  const handleSaveToken=()=>{
+    setToken(ghToken);
+    setShowTokenInput(false);
+    setSyncStatus("Token guardado");
+    setTimeout(()=>setSyncStatus(""),2000);
+  };
+
+  const handleSync=async()=>{
+    if(!getToken()){ setShowTokenInput(true); return; }
+    setSyncStatus("Sincronizando...");
+    const data={ tipo:"hyrox17_export", version:1, alumno:"Atleta", exportadoEl:new Date().toISOString(), tracking };
+    const ok=await ghSaveProgress(data);
+    setSyncStatus(ok?"☁ Sincronizado en GitHub":"✗ Error al sincronizar");
+    setTimeout(()=>setSyncStatus(""),3000);
+  };
+
   const handleChange=useCallback((key,val)=>{ if(!isReadOnly) setTracking(p=>({...p,[key]:val})); },[isReadOnly]);
   const handleToggleDay=useCallback((dk)=>{ if(!isReadOnly) setTracking(p=>({...p,[dk]:!p[dk]})); },[isReadOnly]);
 
@@ -1022,12 +1085,23 @@ function App(){
         <div className="header-actions">
           <button className="hdr-btn export" onClick={handleExport}><span className="arrow">↓</span> Exportar progreso</button>
           <button className="hdr-btn" onClick={handleImportClick}><span className="arrow">↑</span> Importar</button>
+          <button className="hdr-btn" onClick={handleSync} style={{borderColor:"#4ade80",color:"#4ade80"}}>☁ Sincronizar</button>
           <button className="hdr-btn" onClick={handleReset}>Reiniciar datos</button>
         </div>
         <WeekProgressTrack tracking={activeTracking} currentWeek={currentWeek}/>
       </div>
 
       {importError&&<div className="import-error">{importError}</div>}
+      {syncStatus&&<div style={{margin:"8px 16px",padding:"10px 14px",borderRadius:"8px",background:"var(--surface)",border:"1px solid var(--border)",fontSize:"13px",color:"#4ade80"}}>{syncStatus}</div>}
+      {showTokenInput&&<div style={{margin:"8px 16px",padding:"14px",borderRadius:"8px",background:"var(--surface)",border:"1px solid var(--border)"}}>
+        <div style={{fontSize:"11px",color:"var(--dim)",marginBottom:"8px",letterSpacing:".08em",textTransform:"uppercase"}}>Token de GitHub para sincronizar tu progreso</div>
+        <div style={{display:"flex",gap:"8px"}}>
+          <input type="password" value={ghToken} onChange={e=>setGhToken(e.target.value)} placeholder="ghp_..." style={{flex:1,padding:"8px",borderRadius:"6px",border:"1px solid var(--border)",background:"#1a1a1a",color:"#fff",fontSize:"13px"}}/>
+          <button onClick={handleSaveToken} style={{padding:"8px 14px",borderRadius:"6px",border:"1px solid #4ade80",background:"transparent",color:"#4ade80",fontSize:"13px",cursor:"pointer"}}>Guardar</button>
+          <button onClick={()=>setShowTokenInput(false)} style={{padding:"8px 14px",borderRadius:"6px",border:"1px solid var(--border)",background:"transparent",color:"var(--dim)",fontSize:"13px",cursor:"pointer"}}>Cancelar</button>
+        </div>
+        <div style={{fontSize:"11px",color:"var(--dim)",marginTop:"6px"}}>El token se guarda solo en este navegador. No se envía a ningún servidor externo.</div>
+      </div>}
       {importedData&&(
         <React.Fragment>
           <div className="coach-banner">
