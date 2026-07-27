@@ -1,0 +1,907 @@
+{
+  "tipo": "hyrox17_export",
+  "version": 1,
+  "alumno": "Atleta",
+  "exportadoEl": "2026-07-27T16:53:52.851Z",
+  "tracking": {
+    "s1_d0_f1_e0": {
+      "series": [
+        {
+          "kg": "60",
+          "reps": "10"
+        },
+        {
+          "kg": "60",
+          "reps": "10"
+        },
+        {
+          "kg": "60",
+          "reps": "10"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s1_d0_f1_e1": {
+      "series": [
+        {
+          "kg": "60",
+          "reps": "10"
+        },
+        {
+          "kg": "60",
+          "reps": "10"
+        },
+        {
+          "kg": "60",
+          "reps": "10"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s1_d0_f1_e2": {
+      "series": [
+        {
+          "kg": "60",
+          "reps": "12"
+        },
+        {
+          "kg": "60",
+          "reps": "12"
+        },
+        {
+          "kg": "60",
+          "reps": "12"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s1_d0_f1_e3": {
+      "series": [
+        {
+          "kg": "16",
+          "reps": "10"
+        },
+        {
+          "kg": "16",
+          "reps": "10"
+        },
+        {
+          "kg": "16",
+          "reps": "10"
+        }
+      ],
+      "comentario": "zancada goblet con KB 16kg",
+      "video": "",
+      "done": false
+    },
+    "s1_d0_done": true,
+    "s1_d1_done": true,
+    "s1_d2_f1_e0": {
+      "series": [
+        {
+          "kg": "50",
+          "reps": "10"
+        },
+        {
+          "kg": "50",
+          "reps": "10"
+        },
+        {
+          "kg": "50",
+          "reps": "10"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s1_d2_f1_e1": {
+      "series": [
+        {
+          "kg": "38",
+          "reps": "10"
+        },
+        {
+          "kg": "38",
+          "reps": "10"
+        },
+        {
+          "kg": "38",
+          "reps": "10"
+        }
+      ],
+      "comentario": "Contando barra W",
+      "video": "",
+      "done": false
+    },
+    "s1_d2_f1_e2": {
+      "series": [
+        {
+          "kg": "10",
+          "reps": "10"
+        },
+        {
+          "kg": "10",
+          "reps": "10"
+        },
+        {
+          "kg": "10",
+          "reps": "10"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s1_d2_f1_e3": {
+      "series": [],
+      "comentario": "Pull Ups",
+      "video": "",
+      "done": false
+    },
+    "s1_d2_f1_e4": {
+      "series": [
+        {
+          "kg": "30",
+          "reps": "30 mts"
+        },
+        {
+          "kg": "30",
+          "reps": "30 mts"
+        },
+        {
+          "kg": "30",
+          "reps": "30 mts"
+        }
+      ],
+      "comentario": "KB 24 + KB 6",
+      "video": "",
+      "done": false
+    },
+    "s1_d2_done": true,
+    "s1_d3_f1_e1": {
+      "series": [],
+      "comentario": "3:50/km - vel 15",
+      "video": "",
+      "done": false
+    },
+    "s1_d3_done": true,
+    "s1_d4_f1_e0": {
+      "series": [
+        {
+          "kg": "60",
+          "reps": "8"
+        },
+        {
+          "kg": "60",
+          "reps": "8"
+        },
+        {
+          "kg": "60",
+          "reps": "8"
+        },
+        {
+          "kg": "60",
+          "reps": "8"
+        }
+      ],
+      "comentario": "Contando barra 20kg",
+      "video": "",
+      "done": false
+    },
+    "s1_d4_f1_e1": {
+      "series": [
+        {
+          "kg": "60",
+          "reps": "8"
+        },
+        {
+          "kg": "60",
+          "reps": "8"
+        },
+        {
+          "kg": "60",
+          "reps": "8"
+        }
+      ],
+      "comentario": "Contando barra 20kg",
+      "video": "",
+      "done": false
+    },
+    "s1_d4_f1_e2": {
+      "series": [
+        {
+          "kg": "15",
+          "reps": "10"
+        },
+        {
+          "kg": "15",
+          "reps": "10"
+        },
+        {
+          "kg": "15",
+          "reps": "10"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s1_d4_f1_e3": {
+      "series": [
+        {
+          "kg": "15",
+          "reps": "10"
+        },
+        {
+          "kg": "15",
+          "reps": "10"
+        },
+        {
+          "kg": "15",
+          "reps": "10"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s1_d4_f2_e0": {
+      "series": [
+        {
+          "kg": "80",
+          "reps": "30 mts"
+        },
+        {
+          "kg": "80",
+          "reps": "30 mts"
+        },
+        {
+          "kg": "80",
+          "reps": "30 mts"
+        },
+        {
+          "kg": "80 ",
+          "reps": "30 mts"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s1_d4_f2_e1": {
+      "series": [
+        {
+          "kg": "9",
+          "reps": "15"
+        },
+        {
+          "kg": "9",
+          "reps": "15"
+        },
+        {
+          "kg": "9",
+          "reps": "15"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s1_d4_done": true,
+    "s1_d5_done": true,
+    "s2_d0_f1_e0": {
+      "series": [
+        {
+          "kg": "65",
+          "reps": "10"
+        },
+        {
+          "kg": "65",
+          "reps": "10"
+        },
+        {
+          "kg": "65",
+          "reps": "10"
+        }
+      ],
+      "comentario": "Contando barra 20kg",
+      "video": "",
+      "done": false
+    },
+    "s2_d0_f1_e1": {
+      "series": [
+        {
+          "kg": "65",
+          "reps": "10"
+        },
+        {
+          "kg": "65",
+          "reps": "10"
+        },
+        {
+          "kg": "65",
+          "reps": "10"
+        }
+      ],
+      "comentario": "Contando barra 20kg",
+      "video": "",
+      "done": false
+    },
+    "s2_d0_f1_e2": {
+      "series": [
+        {
+          "kg": "65",
+          "reps": "12"
+        },
+        {
+          "kg": "65",
+          "reps": "12"
+        },
+        {
+          "kg": "65",
+          "reps": "12"
+        }
+      ],
+      "comentario": "Contando barra 20kg",
+      "video": "",
+      "done": false
+    },
+    "s2_d0_f1_e3": {
+      "series": [
+        {
+          "kg": "40",
+          "reps": "10"
+        },
+        {
+          "kg": "40",
+          "reps": "10"
+        },
+        {
+          "kg": "40",
+          "reps": "10"
+        }
+      ],
+      "comentario": "20kg cada lado",
+      "video": "",
+      "done": false
+    },
+    "s2_d0_done": true,
+    "s2_d1_done": true,
+    "s2_d2_f1_e0": {
+      "series": [
+        {
+          "kg": "60",
+          "reps": "10"
+        },
+        {
+          "kg": "60",
+          "reps": "10"
+        },
+        {
+          "kg": "60",
+          "reps": "10"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s2_d2_f1_e1": {
+      "series": [
+        {
+          "kg": "43",
+          "reps": "10"
+        },
+        {
+          "kg": "43",
+          "reps": "10"
+        },
+        {
+          "kg": "43",
+          "reps": "10"
+        }
+      ],
+      "comentario": "Contando Barra W",
+      "video": "",
+      "done": false
+    },
+    "s2_d2_f1_e3": {
+      "series": [
+        {
+          "kg": "49",
+          "reps": "10"
+        },
+        {
+          "kg": "49",
+          "reps": "10"
+        },
+        {
+          "kg": "49",
+          "reps": "10"
+        }
+      ],
+      "comentario": "Jalón al pecho\n",
+      "video": "",
+      "done": false
+    },
+    "s2_d2_f1_e4": {
+      "series": [
+        {
+          "kg": "32",
+          "reps": "30 mts"
+        },
+        {
+          "kg": "32",
+          "reps": "30 mts"
+        },
+        {
+          "kg": "32",
+          "reps": "30 mts"
+        }
+      ],
+      "comentario": "KB 24 + KB 8",
+      "video": "",
+      "done": false
+    },
+    "s2_d2_done": true,
+    "s2_d3_f1_e1": {
+      "series": [],
+      "comentario": "3:30/km - vel 15.15",
+      "video": "",
+      "done": false
+    },
+    "s2_d3_done": true,
+    "s2_d4_f1_e0": {
+      "series": [
+        {
+          "kg": "65",
+          "reps": "8"
+        },
+        {
+          "kg": "65",
+          "reps": "8"
+        },
+        {
+          "kg": "65",
+          "reps": "8"
+        },
+        {
+          "kg": "65",
+          "reps": "8"
+        }
+      ],
+      "comentario": "Contando barra 20kg",
+      "video": "",
+      "done": false
+    },
+    "s2_d4_f1_e1": {
+      "series": [
+        {
+          "kg": "70",
+          "reps": "8"
+        },
+        {
+          "kg": "70",
+          "reps": "8"
+        },
+        {
+          "kg": "70",
+          "reps": "8"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s2_d4_f1_e2": {
+      "series": [
+        {
+          "kg": "17.5",
+          "reps": "10"
+        },
+        {
+          "kg": "17.5",
+          "reps": "10"
+        },
+        {
+          "kg": "17.5",
+          "reps": "10"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s2_d4_f1_e3": {
+      "series": [
+        {
+          "kg": "17,5",
+          "reps": "10"
+        },
+        {
+          "kg": "17,5",
+          "reps": "10"
+        },
+        {
+          "kg": "17,5",
+          "reps": "10"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s2_d4_f2_e0": {
+      "series": [
+        {
+          "kg": "100",
+          "reps": "30 mts"
+        },
+        {
+          "kg": "100",
+          "reps": "30 mts"
+        },
+        {
+          "kg": "100",
+          "reps": "30 mts"
+        },
+        {
+          "kg": "100",
+          "reps": "30 mts"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s2_d4_f2_e1": {
+      "series": [
+        {
+          "kg": "9",
+          "reps": "15"
+        },
+        {
+          "kg": "9",
+          "reps": "15"
+        },
+        {
+          "kg": "9",
+          "reps": "15"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s2_d4_done": true,
+    "s2_d5_done": true,
+    "s3_d0_f1_e1": {
+      "series": [
+        {
+          "kg": "75",
+          "reps": "10"
+        },
+        {
+          "kg": "75",
+          "reps": "10"
+        },
+        {
+          "kg": "75",
+          "reps": "10"
+        },
+        {
+          "kg": "75",
+          "reps": "10"
+        }
+      ],
+      "comentario": "Contando barra 20kg",
+      "video": "",
+      "done": false
+    },
+    "s3_d0_f1_e2": {
+      "series": [
+        {
+          "kg": "75",
+          "reps": "10"
+        },
+        {
+          "kg": "75",
+          "reps": "10"
+        },
+        {
+          "kg": "75",
+          "reps": "10"
+        }
+      ],
+      "comentario": "Contando barrra 20kg",
+      "video": "",
+      "done": false
+    },
+    "s3_d0_f1_e3": {
+      "series": [
+        {
+          "kg": "50",
+          "reps": "10"
+        },
+        {
+          "kg": "50",
+          "reps": "10"
+        },
+        {
+          "kg": "50",
+          "reps": "10"
+        }
+      ],
+      "comentario": "25kg cada lado ",
+      "video": "",
+      "done": false
+    },
+    "s3_d0_done": true,
+    "s3_d1_done": true,
+    "s3_d2_f1_e0": {
+      "series": [
+        {
+          "kg": "65",
+          "reps": "10"
+        },
+        {
+          "kg": "65",
+          "reps": "10"
+        },
+        {
+          "kg": "65",
+          "reps": "10"
+        },
+        {
+          "kg": "65",
+          "reps": "10"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s3_d2_f1_e1": {
+      "series": [
+        {
+          "kg": "45,5",
+          "reps": "10"
+        },
+        {
+          "kg": "45,5",
+          "reps": "10"
+        },
+        {
+          "kg": "45,5",
+          "reps": "10"
+        },
+        {
+          "kg": "45,5",
+          "reps": "10"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s3_d2_f1_e2": {
+      "series": [
+        {
+          "kg": "15",
+          "reps": "10"
+        },
+        {
+          "kg": "15",
+          "reps": "10"
+        },
+        {
+          "kg": "15",
+          "reps": "10"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s3_d2_f1_e3": {
+      "series": [
+        {
+          "kg": "Siguiente a 49",
+          "reps": "10"
+        },
+        {
+          "kg": "Siguiente a 49",
+          "reps": "10"
+        },
+        {
+          "kg": "Siguiente a 49",
+          "reps": "10"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s3_d2_f1_e4": {
+      "series": [
+        {
+          "kg": "36",
+          "reps": "30mts"
+        },
+        {
+          "kg": "36",
+          "reps": "30mts"
+        },
+        {
+          "kg": "36",
+          "reps": "30mts"
+        }
+      ],
+      "comentario": "KB 24 + KB 12",
+      "video": "",
+      "done": false
+    },
+    "s3_d2_done": true,
+    "s3_d3_f1_e1": {
+      "series": [],
+      "comentario": "3:20/km - Vel 15.5 ",
+      "video": "",
+      "done": false
+    },
+    "s3_d3_done": true,
+    "s3_d0_f1_e0": {
+      "series": [
+        {
+          "kg": "75",
+          "reps": "10"
+        },
+        {
+          "kg": "75",
+          "reps": "10"
+        },
+        {
+          "kg": "75",
+          "reps": "10"
+        },
+        {
+          "kg": "75",
+          "reps": "10"
+        }
+      ],
+      "comentario": "Contando Barra 20kg",
+      "video": "",
+      "done": false
+    },
+    "s3_d4_f1_e0": {
+      "series": [
+        {
+          "kg": "72,5",
+          "reps": "8"
+        },
+        {
+          "kg": "72,5",
+          "reps": "8"
+        },
+        {
+          "kg": "72,5",
+          "reps": "8"
+        },
+        {
+          "kg": "72,5",
+          "reps": "8"
+        }
+      ],
+      "comentario": "Contando Barra 20kg",
+      "video": "",
+      "done": false
+    },
+    "s3_d4_f1_e1": {
+      "series": [
+        {
+          "kg": "72,5",
+          "reps": "8"
+        },
+        {
+          "kg": "72,5",
+          "reps": "8"
+        },
+        {
+          "kg": "72,5",
+          "reps": "8"
+        }
+      ],
+      "comentario": "Contando barra 20kg",
+      "video": "",
+      "done": false
+    },
+    "s3_d4_f1_e2": {
+      "series": [
+        {
+          "kg": "20",
+          "reps": "10"
+        },
+        {
+          "kg": "20",
+          "reps": "10"
+        },
+        {
+          "kg": "20",
+          "reps": "10"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s3_d4_f1_e3": {
+      "series": [
+        {
+          "kg": "17,5",
+          "reps": "10"
+        },
+        {
+          "kg": "17,5",
+          "reps": "10"
+        },
+        {
+          "kg": "17,5",
+          "reps": "10"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s3_d4_f2_e0": {
+      "series": [
+        {
+          "kg": "120",
+          "reps": "30 mts"
+        },
+        {
+          "kg": "120",
+          "reps": "30 mts"
+        },
+        {
+          "kg": "120",
+          "reps": "30 mts"
+        },
+        {
+          "kg": "120",
+          "reps": "30 mts"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s3_d4_f2_e1": {
+      "series": [
+        {
+          "kg": "12",
+          "reps": "15"
+        },
+        {
+          "kg": "12",
+          "reps": "15"
+        },
+        {
+          "kg": "12",
+          "reps": "15"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s3_d4_done": true,
+    "s3_d5_done": true
+  }
+}
