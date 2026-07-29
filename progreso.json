@@ -2,7 +2,7 @@
   "tipo": "hyrox17_export",
   "version": 1,
   "alumno": "Atleta",
-  "exportadoEl": "2026-07-29T01:39:40.761Z",
+  "exportadoEl": "2026-07-29T23:31:48.628Z",
   "tracking": {
     "s1_d0_f1_e0": {
       "series": [
@@ -1000,6 +1000,91 @@
       "video": "",
       "done": false
     },
-    "s4_d1_done": true
+    "s4_d1_done": true,
+    "s4_d2_f1_e0": {
+      "series": [
+        {
+          "kg": "65",
+          "reps": "10"
+        },
+        {
+          "kg": "65",
+          "reps": "10"
+        },
+        {
+          "kg": "65",
+          "reps": "8"
+        },
+        {
+          "kg": "65",
+          "reps": "8"
+        }
+      ],
+      "comentario": "👉Sumado: Press inclinado Smith - 3x10 con 35kg en discos ",
+      "video": "",
+      "done": false
+    },
+    "s4_d2_f1_e1": {
+      "series": [
+        {
+          "kg": "48",
+          "reps": "10"
+        },
+        {
+          "kg": "48",
+          "reps": "10"
+        },
+        {
+          "kg": "48",
+          "reps": "10"
+        },
+        {
+          "kg": "48",
+          "reps": "10"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s4_d2_f1_e3": {
+      "series": [
+        {
+          "kg": "59",
+          "reps": "12"
+        },
+        {
+          "kg": "59",
+          "reps": "12"
+        },
+        {
+          "kg": "59",
+          "reps": "10"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s4_d2_f1_e2": {
+      "series": [
+        {
+          "kg": "15",
+          "reps": "10"
+        },
+        {
+          "kg": "15",
+          "reps": "10"
+        },
+        {
+          "kg": "15",
+          "reps": "10"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s4_d2_done": true
   }
 }
