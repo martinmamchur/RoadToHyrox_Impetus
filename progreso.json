@@ -2,7 +2,7 @@
   "tipo": "hyrox17_export",
   "version": 1,
   "alumno": "Atleta",
-  "exportadoEl": "2026-08-03T15:53:19.258Z",
+  "exportadoEl": "2026-08-03T16:01:33.119Z",
   "tracking": {
     "s1_d0_f1_e0": {
       "series": [
@@ -1179,6 +1179,25 @@
       "video": "",
       "done": false
     },
-    "s5_d0_done": true
+    "s5_d0_done": true,
+    "s5_d0_f1_e2": {
+      "series": [
+        {
+          "kg": "80",
+          "reps": "12"
+        },
+        {
+          "kg": "80",
+          "reps": "12"
+        },
+        {
+          "kg": "80",
+          "reps": "12"
+        }
+      ],
+      "comentario": "Le erré en pausa descanse 45\" y fue RPE 10",
+      "video": "",
+      "done": false
+    }
   }
 }
