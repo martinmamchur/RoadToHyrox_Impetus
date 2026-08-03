@@ -2,7 +2,7 @@
   "tipo": "hyrox17_export",
   "version": 1,
   "alumno": "Atleta",
-  "exportadoEl": "2026-08-03T16:01:33.119Z",
+  "exportadoEl": "2026-08-03T16:02:09.413Z",
   "tracking": {
     "s1_d0_f1_e0": {
       "series": [
@@ -1196,6 +1196,12 @@
         }
       ],
       "comentario": "Le erré en pausa descanse 45\" y fue RPE 10",
+      "video": "",
+      "done": false
+    },
+    "s5_d0_f1_e3": {
+      "series": [],
+      "comentario": "Con kb 20kg",
       "video": "",
       "done": false
     }
