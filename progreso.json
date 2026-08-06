@@ -2,7 +2,7 @@
   "tipo": "hyrox17_export",
   "version": 1,
   "alumno": "Atleta",
-  "exportadoEl": "2026-08-06T00:33:37.642Z",
+  "exportadoEl": "2026-08-06T00:36:03.786Z",
   "tracking": {
     "s1_d0_f1_e0": {
       "series": [
@@ -1237,7 +1237,7 @@
           "reps": "10"
         }
       ],
-      "comentario": "",
+      "comentario": "Press banca inclinado - 3x10 con 15kg en discos",
       "video": "",
       "done": false
     }
