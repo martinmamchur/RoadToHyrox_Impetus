@@ -2,7 +2,7 @@
   "tipo": "hyrox17_export",
   "version": 1,
   "alumno": "Atleta",
-  "exportadoEl": "2026-08-06T01:27:53.934Z",
+  "exportadoEl": "2026-08-08T01:13:42.961Z",
   "tracking": {
     "s1_d0_f1_e0": {
       "series": [
@@ -1308,6 +1308,99 @@
       "video": "",
       "done": false
     },
-    "s5_d2_done": true
+    "s5_d2_done": true,
+    "s5_d4_f1_e1": {
+      "series": [
+        {
+          "kg": "77,5",
+          "reps": "8"
+        },
+        {
+          "kg": "77,5",
+          "reps": "8"
+        },
+        {
+          "kg": "77,5",
+          "reps": "8"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s5_d4_f1_e0": {
+      "series": [
+        {
+          "kg": "70",
+          "reps": "8"
+        },
+        {
+          "kg": "70",
+          "reps": "8"
+        },
+        {
+          "kg": "70",
+          "reps": "8"
+        },
+        {
+          "kg": "70",
+          "reps": "8"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s5_d4_f1_e2": {
+      "series": [
+        {
+          "kg": "22,5",
+          "reps": "10"
+        },
+        {
+          "kg": "22,5",
+          "reps": "10"
+        },
+        {
+          "kg": "22,5",
+          "reps": "10"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s5_d4_f1_e3": {
+      "series": [
+        {
+          "kg": "17,5",
+          "reps": "10"
+        },
+        {
+          "kg": "17,5",
+          "reps": "10"
+        },
+        {
+          "kg": "17,5",
+          "reps": "10"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s5_d4_done": true,
+    "s5_d4_f2_e0": {
+      "series": [],
+      "comentario": "No lo hice ",
+      "video": "",
+      "done": false
+    },
+    "s5_d4_f2_e1": {
+      "series": [],
+      "comentario": "No lo hice ",
+      "video": "",
+      "done": false
+    }
   }
 }
