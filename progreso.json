@@ -2,7 +2,7 @@
   "tipo": "hyrox17_export",
   "version": 1,
   "alumno": "Atleta",
-  "exportadoEl": "2026-08-12T01:04:54.495Z",
+  "exportadoEl": "2026-08-12T01:20:47.761Z",
   "tracking": {
     "s1_d0_f1_e0": {
       "series": [
@@ -1480,6 +1480,13 @@
         }
       ],
       "comentario": "2x8kg ",
+      "video": "",
+      "done": false
+    },
+    "s6_d0_f2_e1": {
+      "kg": "",
+      "reps": "",
+      "comentario": "140 push / 140 pull ",
       "video": "",
       "done": false
     }
