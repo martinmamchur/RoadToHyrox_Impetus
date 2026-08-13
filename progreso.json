@@ -2,7 +2,7 @@
   "tipo": "hyrox17_export",
   "version": 1,
   "alumno": "Atleta",
-  "exportadoEl": "2026-08-13T16:43:42.186Z",
+  "exportadoEl": "2026-08-13T16:55:54.679Z",
   "tracking": {
     "s1_d0_f1_e0": {
       "series": [
@@ -1556,6 +1556,44 @@
       "video": "",
       "done": false
     },
-    "s6_d2_done": true
+    "s6_d2_done": true,
+    "s6_d2_f1_e2": {
+      "series": [
+        {
+          "kg": "17,5",
+          "reps": "10"
+        },
+        {
+          "kg": "17,5",
+          "reps": "8"
+        },
+        {
+          "kg": "17,5",
+          "reps": "8"
+        }
+      ],
+      "comentario": "",
+      "video": "",
+      "done": false
+    },
+    "s6_d2_f1_e3": {
+      "series": [
+        {
+          "kg": "63",
+          "reps": "8"
+        },
+        {
+          "kg": "63",
+          "reps": "8"
+        },
+        {
+          "kg": "63",
+          "reps": "8"
+        }
+      ],
+      "comentario": "🚨Combinado con curl biceps polea y tríceps polea 3x12 con 80lbs",
+      "video": "",
+      "done": false
+    }
   }
 }
