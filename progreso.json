@@ -2,7 +2,7 @@
   "tipo": "hyrox17_export",
   "version": 1,
   "alumno": "Atleta",
-  "exportadoEl": "2026-08-18T00:34:14.282Z",
+  "exportadoEl": "2026-08-18T00:36:45.787Z",
   "tracking": {
     "s1_d0_f1_e0": {
       "series": [
@@ -1626,14 +1626,14 @@
         },
         {
           "kg": "90",
-          "reps": ""
+          "reps": "8"
         },
         {
           "kg": "90",
-          "reps": ""
+          "reps": "8"
         }
       ],
-      "comentario": "",
+      "comentario": "Tome 2 min y subí peso ",
       "video": "",
       "done": false
     }
