@@ -2,7 +2,7 @@
   "tipo": "hyrox17_export",
   "version": 1,
   "alumno": "Atleta",
-  "exportadoEl": "2026-08-21T00:59:56.174Z",
+  "exportadoEl": "2026-08-21T01:07:07.004Z",
   "tracking": {
     "s1_d0_f1_e0": {
       "series": [
@@ -1760,6 +1760,25 @@
       "comentario": "Jalón en máquina ",
       "video": "",
       "done": false
-    }
+    },
+    "s7_d2_f1_e4": {
+      "series": [],
+      "comentario": "No lo hice ",
+      "video": "",
+      "done": false
+    },
+    "s7_d2_f2_e0": {
+      "resultado": "",
+      "comentario": "No lo hice ",
+      "video": "",
+      "done": false
+    },
+    "s7_d2_f2_e1": {
+      "resultado": "",
+      "comentario": "No lo hice ",
+      "video": "",
+      "done": false
+    },
+    "s7_d2_done": true
   }
 }
