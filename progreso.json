@@ -2,7 +2,7 @@
   "tipo": "hyrox17_export",
   "version": 1,
   "alumno": "Atleta",
-  "exportadoEl": "2026-08-22T01:02:34.051Z",
+  "exportadoEl": "2026-08-22T01:02:42.231Z",
   "tracking": {
     "s1_d0_f1_e0": {
       "series": [
@@ -1793,6 +1793,7 @@
       "comentario": "Con 80kg 2x30 mts cada uno ",
       "video": "",
       "done": false
-    }
+    },
+    "s7_d3_done": true
   }
 }
