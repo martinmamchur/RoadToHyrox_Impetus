@@ -2,7 +2,7 @@
   "tipo": "hyrox17_export",
   "version": 1,
   "alumno": "Atleta",
-  "exportadoEl": "2026-08-21T01:07:07.004Z",
+  "exportadoEl": "2026-08-22T01:02:34.051Z",
   "tracking": {
     "s1_d0_f1_e0": {
       "series": [
@@ -1779,6 +1779,20 @@
       "video": "",
       "done": false
     },
-    "s7_d2_done": true
+    "s7_d2_done": true,
+    "s7_d3_f2_e1": {
+      "kg": "",
+      "reps": "",
+      "comentario": "Cambiado por estocadas con 20kg - 100 mts entre ambos ",
+      "video": "",
+      "done": false
+    },
+    "s7_d3_f2_e3": {
+      "kg": "",
+      "reps": "",
+      "comentario": "Con 80kg 2x30 mts cada uno ",
+      "video": "",
+      "done": false
+    }
   }
 }
