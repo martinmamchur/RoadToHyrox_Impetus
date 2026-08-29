@@ -2,7 +2,7 @@
   "tipo": "hyrox17_export",
   "version": 1,
   "alumno": "Atleta",
-  "exportadoEl": "2026-08-29T14:41:05.266Z",
+  "exportadoEl": "2026-08-29T14:41:09.480Z",
   "tracking": {
     "s1_d0_f1_e0": {
       "series": [
@@ -1987,6 +1987,7 @@
       "comentario": "Hice dos rondas en total",
       "video": "",
       "done": false
-    }
+    },
+    "s8_d3_done": true
   }
 }
