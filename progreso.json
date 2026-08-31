@@ -2,7 +2,7 @@
   "tipo": "hyrox17_export",
   "version": 1,
   "alumno": "Atleta",
-  "exportadoEl": "2026-08-31T15:45:03.574Z",
+  "exportadoEl": "2026-08-31T15:45:09.236Z",
   "tracking": {
     "s1_d0_f1_e0": {
       "series": [
@@ -2134,7 +2134,7 @@
     "s9_d0_f1_e3": {
       "series": [
         {
-          "kg": "1",
+          "kg": "112",
           "reps": ""
         }
       ],
