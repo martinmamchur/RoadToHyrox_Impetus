@@ -2,7 +2,7 @@
   "tipo": "hyrox17_export",
   "version": 1,
   "alumno": "Atleta",
-  "exportadoEl": "2026-09-04T17:10:31.610Z",
+  "exportadoEl": "2026-09-04T17:20:21.470Z",
   "tracking": {
     "s1_d0_f1_e0": {
       "series": [
@@ -2330,7 +2330,20 @@
       "done": false
     },
     "s9_d4_f1_e3": {
-      "series": [],
+      "series": [
+        {
+          "kg": "27",
+          "reps": ""
+        },
+        {
+          "kg": "27",
+          "reps": ""
+        },
+        {
+          "kg": "27",
+          "reps": ""
+        }
+      ],
       "comentario": "Remo unilateral en polea",
       "video": "",
       "done": false
