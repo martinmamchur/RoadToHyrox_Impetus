@@ -2,7 +2,7 @@
   "tipo": "hyrox17_export",
   "version": 1,
   "alumno": "Atleta",
-  "exportadoEl": "2026-09-08T16:44:49.318Z",
+  "exportadoEl": "2026-09-08T16:44:59.408Z",
   "tracking": {
     "s1_d0_f1_e0": {
       "series": [
@@ -2444,6 +2444,7 @@
       "comentario": "Jalón al pecho ",
       "video": "",
       "done": false
-    }
+    },
+    "s10_d2_done": true
   }
 }
