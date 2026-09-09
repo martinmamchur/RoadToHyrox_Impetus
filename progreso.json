@@ -2,7 +2,7 @@
   "tipo": "hyrox17_export",
   "version": 1,
   "alumno": "Atleta",
-  "exportadoEl": "2026-09-09T21:50:09.803Z",
+  "exportadoEl": "2026-09-09T21:50:26.228Z",
   "tracking": {
     "s1_d0_f1_e0": {
       "series": [
@@ -2471,6 +2471,13 @@
     },
     "s10_d0_done": true,
     "s10_d0_f2_e0": {
+      "kg": "",
+      "reps": "",
+      "comentario": "🚨No lo hice",
+      "video": "",
+      "done": false
+    },
+    "s10_d0_f2_e1": {
       "kg": "",
       "reps": "",
       "comentario": "🚨No lo hice",
