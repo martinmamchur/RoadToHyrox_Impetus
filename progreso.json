@@ -2,7 +2,7 @@
   "tipo": "hyrox17_export",
   "version": 1,
   "alumno": "Atleta",
-  "exportadoEl": "2026-09-09T21:23:35.940Z",
+  "exportadoEl": "2026-09-09T21:24:35.148Z",
   "tracking": {
     "s1_d0_f1_e0": {
       "series": [
@@ -2450,6 +2450,12 @@
       "done": false
     },
     "s10_d2_done": true,
-    "s10_d3_done": true
+    "s10_d3_done": true,
+    "s10_d0_f1_e1": {
+      "series": [],
+      "comentario": "Cambio por banco isquios 3x10",
+      "video": "",
+      "done": false
+    }
   }
 }
