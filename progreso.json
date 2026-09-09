@@ -2,7 +2,7 @@
   "tipo": "hyrox17_export",
   "version": 1,
   "alumno": "Atleta",
-  "exportadoEl": "2026-09-09T21:49:44.602Z",
+  "exportadoEl": "2026-09-09T21:49:53.678Z",
   "tracking": {
     "s1_d0_f1_e0": {
       "series": [
@@ -2468,6 +2468,7 @@
       "comentario": "🚨Cambio por banco abductor 3x10 con 45kg",
       "video": "",
       "done": false
-    }
+    },
+    "s10_d0_done": true
   }
 }
